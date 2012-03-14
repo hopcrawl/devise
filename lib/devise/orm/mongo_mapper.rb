@@ -32,4 +32,4 @@ module Devise
   end
 end
 
-MongoMapper.plugin Devise::Orm::MongoMapper
+MongoMapper::Document.plugin(Devise::Orm::MongoMapper)
