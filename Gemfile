@@ -30,11 +30,11 @@ platforms :ruby do
   group :mongoid do
     gem "mongo", "~> 1.3.0"
     gem "mongoid", "~> 2.0"
-    gem "bson_ext", "~> 1.3.0"
+    gem "bson_ext", "~> 1.5.1"
   end
   
   group :mongo_mapper do
     gem "mongo_mapper", "~> 0.11.0"
-    gem "bson_ext", "~> 1.3.0"
+    gem "bson_ext", "~> 1.5.1"
   end
 end
