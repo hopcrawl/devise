@@ -42,4 +42,6 @@ class User
 
   ## Token authenticatable
   key :authentication_token, :type => String
+  
+  timestamps!
 end

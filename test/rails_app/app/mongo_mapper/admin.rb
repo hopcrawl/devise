@@ -27,4 +27,6 @@ class Admin
 
   ## Lockable
   key :locked_at, :type => Time
+  
+  timestamps!
 end
